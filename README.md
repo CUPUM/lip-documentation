@@ -1,3 +1,3 @@
-# Headline
+# Procéduriers et informations d'usage
 
-> An awesome project.
+Vous trouverez ici un corpus de documentation utilisateur pour les diverses facettes logicielles et matérielles de l'infrastructure du *laboratoire d'innovation paysagère* (LIP)

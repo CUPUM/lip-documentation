@@ -1,22 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Procéduriers LIP</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="vue.css"> -->
+  <link rel="stylesheet" href="lip.css">
+  <!-- <link rel="stylesheet" href="prism-atom-dark.css"> -->
 </head>
 <body>
-  <div id="app"></div>
+  <div id="lip">Chargement du contenu...</div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      el: '#lip',
+      name: 'Documentation LIP',
+      repo: '',
+      themeColor: '#80CB66',
+      topMargin: 40,
+
+      relativePath: true,
+
+      loadSidebar: true,
+      // autoHeader: true,
+      subMaxLevel: 3,
+
+      auto2top: true,
+
+      search: 'auto',
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto', // or 'auto'
+        placeholder: 'Chercher...',
+        noData: 'Aucun résultat',
+        depth: 3, // Headline depth, 1 - 6
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        // To avoid search index collision
+        // between multiple websites under the same domain
+        namespace: 'website-1',
+
+        // Use different indexes for path prefixes (namespaces).
+        // NOTE: Only works in 'auto' mode.
+        //
+        // When initialiazing an index, we look for the first path from the sidebar.
+        // If it matches the prefix from the list, we switch to the corresponding index.
+        // pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+
+        // You can provide a regexp to match prefixes. In this case,
+        // the matching substring will be used to identify the index
+        // pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      },
+
+      pagination: {
+        previousText: 'Précédent',
+        nextText: 'Suivant',
+        crossChapter: true
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
