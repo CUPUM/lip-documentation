@@ -2,7 +2,7 @@
 
 ## Composantes
 
-Les éléments du système audiovisuel installé dans le local 4133 se divisent en trois catégories principales, à savoir&nbsp;:
+Les éléments du système audiovisuel installé dans le **local 4133** se divisent en trois catégories principales, à savoir&nbsp;:
 
 <div class="letter-list" markdown="1">
 
@@ -17,6 +17,8 @@ Les éléments du système audiovisuel installé dans le local 4133 se divisent 
 ### *a.* Les sources (*inputs*)
 
 Le système comporte 4 sources principales, soit&nbsp;:
+
+<div class="roman-list">
 
 1. #### L'ordinateur du podium
 
@@ -34,9 +36,13 @@ Le système comporte 4 sources principales, soit&nbsp;:
 
 4. #### Les micros
 
+</div>
+
 ### *b.* Les appareils de diffusion (*outputs*)
 
 Cette catégorie comprend les appareils d’affichage visuel et audio, c’est-à-dire les 3 moniteurs à l’avant de la salle, et le système de son.
+
+<div class="roman-list">
 
 1. #### Le moniteur central
 
@@ -47,6 +53,8 @@ Cette catégorie comprend les appareils d’affichage visuel et audio, c’est-�
 2. #### Les moniteurs latéraux (gauche et droit)
 
 3. #### Les haut-parleurs de plafond
+
+<div>
 
 ### *c.* La matrice de gestion
 
