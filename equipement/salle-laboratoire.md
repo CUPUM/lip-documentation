@@ -38,15 +38,15 @@ Le système comporte 4 sources principales, soit&nbsp;:
 
 Cette catégorie comprend les appareils d’affichage visuel et audio, c’est-à-dire les 3 moniteurs à l’avant de la salle, et le système de son.
 
-#### Le moniteur central
+1. #### Le moniteur central
 
-Ce moniteur 4K offre une fonctionnalité multi-touche.
+   Ce moniteur 4K offre une fonctionnalité multi-touche.
 
-!> Notez cependant que son branchement actuel est tel que le signal d’interaction tactile est envoyé uniquement à l’ordinateur. Ainsi, si jamais il est souhaité d'utiliser la fonctionnalité multi-touche sur le CYNAP, il faudra brancher le câble USB de l'écran au CYNAP pour y envoyer le signal des interactions.
+   !> Notez cependant que son branchement actuel est tel que le signal d’interaction tactile est envoyé uniquement à l’ordinateur. Ainsi, si jamais il est souhaité d'utiliser la fonctionnalité multi-touche sur le CYNAP, il faudra brancher le câble USB de l'écran au CYNAP pour y envoyer le signal des interactions.
 
-#### Les moniteurs latéraux (gauche et droit)
+2. #### Les moniteurs latéraux (gauche et droit)
 
-#### Les haut-parleurs de plafond
+3. #### Les haut-parleurs de plafond
 
 ### *c.* La matrice de gestion
 
